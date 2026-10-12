@@ -302,7 +302,8 @@
 </head>
 <body>
 
-    <a href="https://wa.me/917079186735" class="float-wa" target="_blank" aria-label="WhatsApp">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/918051400941" class="float-wa" target="_blank" aria-label="WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
@@ -324,7 +325,7 @@
             <p data-key="hero_desc">Professional Wedding Photography, 4K Cinematic Video Mixing, Drone Shoot & Karizma Album in Begusarai, Bihar.</p>
             <div class="btn-group">
                 <a href="#booking" class="btn-primary" data-key="hero_btn_book">Book Date</a>
-                <a href="https://wa.me/917079186735" class="btn-whatsapp" target="_blank">
+                <a href="https://wa.me/918051400941" class="btn-whatsapp" target="_blank">
                     <i class="fab fa-whatsapp"></i> <span data-key="hero_btn_wa">WhatsApp</span>
                 </a>
             </div>
@@ -373,7 +374,7 @@
                 </div>
                 <div class="form-group">
                     <label data-key="form_phone">Mobile Number</label>
-                    <input type="tel" id="custPhone" required placeholder="e.g. 7079186735">
+                    <input type="tel" id="custPhone" required placeholder="e.g. 8051400941">
                 </div>
                 <div class="form-group">
                     <label data-key="form_date">Event Date</label>
@@ -416,7 +417,7 @@
 
     <footer>
         <p><strong>Maa Digital Mixing Lab</strong> | <span data-key="ft_loc">Begusarai, Bihar</span></p>
-        <p><span data-key="ft_contact">Contact</span>: +91 7079186735 | &copy; 2026 Maa Digital Mixing Lab</p>
+        <p><span data-key="ft_contact">Contact</span>: +91 8051400941 | &copy; 2026 Maa Digital Mixing Lab</p>
     </footer>
 
     <script>
@@ -502,7 +503,8 @@
                 ft_contact: "संपर्क"
             }
         };
-              function setLanguage(lang) {
+
+        function setLanguage(lang) {
             document.querySelectorAll('[data-key]').forEach(elem => {
                 const key = elem.getAttribute('data-key');
                 if (i18n[lang][key]) {
@@ -517,7 +519,7 @@
 
         document.getElementById('bookingForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            const name = document.getElementById('custName').value;
+                        const name = document.getElementById('custName').value;
             const phone = document.getElementById('custPhone').value;
             const date = document.getElementById('custDate').value;
             const event = document.getElementById('custEvent').value;
@@ -531,7 +533,7 @@
                         `*Event:* ${event}%0A` +
                         `*Location:* ${loc}`;
 
-            window.open(`https://wa.me/917079186735?text=${msg}`, '_blank');
+            window.open(`https://wa.me/918051400941?text=${msg}`, '_blank');
         });
     </script>
 </body>
